@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Submit Claim";
+}
+
+<h2>Submit Monthly Claim</h2>
+<form>
+    <label>Month:</label>
+    <select>
+        <option>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+    </select>
+
+    <label>Contract:</label>
+    <select>
+        <option>Contract A</option>
+        <option>Contract B</option>
+    </select>
+
+    <label>Hours Worked:</label>
+    <input type="number" />
+
+    <label>Rate:</label>
+    <input type="text" readonly value="$50" />
+
+    <label>Comments:</label>
+    <textarea placeholder="Add any comments"></textarea>
+
+    <button type="submit">Submit Claim</button>
+</form>

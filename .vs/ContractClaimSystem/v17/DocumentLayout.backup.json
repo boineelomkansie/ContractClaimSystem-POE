@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|c:\\users\\agosi\\documents\\school\\2025 second semester\\prog6212\\contractclaimsystem\\contractclaimsystem\\contractclaimsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|solutionrelative:contractclaimsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|c:\\users\\agosi\\documents\\school\\2025 second semester\\prog6212\\contractclaimsystem\\contractclaimsystem\\contractclaimsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|solutionrelative:contractclaimsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|c:\\users\\agosi\\documents\\school\\2025 second semester\\prog6212\\contractclaimsystem\\contractclaimsystem\\contractclaimsystem\\views\\claim\\verifyapprove.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|solutionrelative:contractclaimsystem\\views\\claim\\verifyapprove.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|c:\\users\\agosi\\documents\\school\\2025 second semester\\prog6212\\contractclaimsystem\\contractclaimsystem\\contractclaimsystem\\views\\claim\\trackstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|solutionrelative:contractclaimsystem\\views\\claim\\trackstatus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|c:\\users\\agosi\\documents\\school\\2025 second semester\\prog6212\\contractclaimsystem\\contractclaimsystem\\contractclaimsystem\\views\\claim\\uploaddocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|solutionrelative:contractclaimsystem\\views\\claim\\uploaddocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|c:\\users\\agosi\\documents\\school\\2025 second semester\\prog6212\\contractclaimsystem\\contractclaimsystem\\contractclaimsystem\\views\\claim\\submitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|solutionrelative:contractclaimsystem\\views\\claim\\submitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|c:\\users\\agosi\\documents\\school\\2025 second semester\\prog6212\\contractclaimsystem\\contractclaimsystem\\contractclaimsystem\\views\\claim\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|solutionrelative:contractclaimsystem\\views\\claim\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|c:\\users\\agosi\\documents\\school\\2025 second semester\\prog6212\\contractclaimsystem\\contractclaimsystem\\contractclaimsystem\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9761046A-6EAC-42F3-8FB6-7F0C2A68F5BA}|ContractClaimSystem\\ContractClaimSystem.csproj|solutionrelative:contractclaimsystem\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ContractClaimSystem\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ContractClaimSystem\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAiwKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-09T20:07:55.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ContractClaimSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T20:05:43.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VerifyApprove.cshtml",
+              "DocumentMoniker": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claim\\VerifyApprove.cshtml",
+              "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\Claim\\VerifyApprove.cshtml",
+              "ToolTip": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claim\\VerifyApprove.cshtml",
+              "RelativeToolTip": "ContractClaimSystem\\Views\\Claim\\VerifyApprove.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T20:05:07.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrackStatus.cshtml",
+              "DocumentMoniker": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claim\\TrackStatus.cshtml",
+              "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\Claim\\TrackStatus.cshtml",
+              "ToolTip": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claim\\TrackStatus.cshtml",
+              "RelativeToolTip": "ContractClaimSystem\\Views\\Claim\\TrackStatus.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T20:04:43.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UploadDocuments.cshtml",
+              "DocumentMoniker": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claim\\UploadDocuments.cshtml",
+              "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\Claim\\UploadDocuments.cshtml",
+              "ToolTip": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claim\\UploadDocuments.cshtml",
+              "RelativeToolTip": "ContractClaimSystem\\Views\\Claim\\UploadDocuments.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T20:04:21.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SubmitClaim.cshtml",
+              "DocumentMoniker": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claim\\SubmitClaim.cshtml",
+              "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\Claim\\SubmitClaim.cshtml",
+              "ToolTip": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claim\\SubmitClaim.cshtml",
+              "RelativeToolTip": "ContractClaimSystem\\Views\\Claim\\SubmitClaim.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T20:03:55.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claim\\Home.cshtml",
+              "RelativeDocumentMoniker": "ContractClaimSystem\\Views\\Claim\\Home.cshtml",
+              "ToolTip": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Views\\Claim\\Home.cshtml",
+              "RelativeToolTip": "ContractClaimSystem\\Views\\Claim\\Home.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-09T20:03:08.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "ContractClaimSystem\\Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Users\\agosi\\Documents\\School\\2025 Second Semester\\PROG6212\\ContractClaimSystem\\ContractClaimSystem\\ContractClaimSystem\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "ContractClaimSystem\\Controllers\\ClaimController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T19:59:51.681Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
