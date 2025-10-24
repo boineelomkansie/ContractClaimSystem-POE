@@ -1,0 +1,74 @@
+﻿@model IEnumerable<ContractClaimSystem.Models.Claim>
+
+@{
+    ViewData["Title"] = "Track Claims";
+}
+
+<h2>My Claims</h2>
+
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-info">@TempData["Message"]</div>
+}
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Contract</th>
+            <th>Month</th>
+            <th>Hours</th>
+            <th>Rate</th>
+            <th>Status</th>
+            <th>Notes</th>
+            <th>Date Submitted</th>
+            <th>Actions</th>
+            <th>Documents</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@claim.Contract?.Title</td>
+                <td>@claim.Month</td>
+                <td>@claim.HoursWorked</td>
+                <td>@claim.HourlyRate</td>
+                <td>
+                    <span class="badge @(claim.Status == ContractClaimSystem.Models.ClaimStatus.Approved ? "bg-success" :
+                                                                     claim.Status == ContractClaimSystem.Models.ClaimStatus.Rejected ? "bg-danger" :
+                                                                     "bg-warning text-dark")">
+                    @claim.Status
+                </span>
+            </td>
+            <td>@claim.Notes</td>
+            <td>@claim.DateSubmitted.ToShortDateString()</td>
+            <td>
+                @if (claim.Status == ContractClaimSystem.Models.ClaimStatus.Pending)
+                    {
+                        <a asp-action="Approve" asp-route-id="@claim.ClaimId" class="btn btn-success btn-sm">Approve</a>
+                        <a asp-action="Reject" asp-route-id="@claim.ClaimId" class="btn btn-danger btn-sm">Reject</a>
+                    }
+                    else
+                    {
+                        <em>No actions</em>
+                    }
+                </td>
+                <td>
+                    @if (claim.Documents != null && claim.Documents.Any())
+                    {
+                        foreach (var doc in claim.Documents)
+                        {
+                            <a href="@doc.FilePath" target="_blank">@doc.FileName</a>
+                
+                            <br />
+                        }
+                    }
+                    else
+                    {
+                        <em>No documents</em>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

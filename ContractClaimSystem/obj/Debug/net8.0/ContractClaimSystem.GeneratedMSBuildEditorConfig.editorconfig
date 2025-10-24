@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ContractClaimSystem
 build_property.RootNamespace = ContractClaimSystem
@@ -20,12 +28,32 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/agosi/Documents/School/2025 Second Semester/PROG6212/ContractClaimSystem/ContractClaimSystem/ContractClaimSystem/Views/Claim/Home.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1cSG9tZS5jc2h0bWw=
+[C:/Users/agosi/Documents/School/2025 Second Semester/PROG6212/ContractClaimSystem/ContractClaimSystem/ContractClaimSystem/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agosi/Documents/School/2025 Second Semester/PROG6212/ContractClaimSystem/ContractClaimSystem/ContractClaimSystem/Views/Claim/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agosi/Documents/School/2025 Second Semester/PROG6212/ContractClaimSystem/ContractClaimSystem/ContractClaimSystem/Views/Claim/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1cRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agosi/Documents/School/2025 Second Semester/PROG6212/ContractClaimSystem/ContractClaimSystem/ContractClaimSystem/Views/Claim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/agosi/Documents/School/2025 Second Semester/PROG6212/ContractClaimSystem/ContractClaimSystem/ContractClaimSystem/Views/Claim/SubmitClaim.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1cU3VibWl0Q2xhaW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agosi/Documents/School/2025 Second Semester/PROG6212/ContractClaimSystem/ContractClaimSystem/ContractClaimSystem/Views/Claim/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1cU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/agosi/Documents/School/2025 Second Semester/PROG6212/ContractClaimSystem/ContractClaimSystem/ContractClaimSystem/Views/Claim/TrackClaims.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1cVHJhY2tDbGFpbXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/agosi/Documents/School/2025 Second Semester/PROG6212/ContractClaimSystem/ContractClaimSystem/ContractClaimSystem/Views/Claim/TrackStatus.cshtml]

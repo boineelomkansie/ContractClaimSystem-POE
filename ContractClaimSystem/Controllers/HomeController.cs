@@ -1,6 +1,6 @@
-using System.Diagnostics;
+﻿using Microsoft.AspNetCore.Mvc;
 using ContractClaimSystem.Models;
-using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace ContractClaimSystem.Controllers
 {
@@ -13,16 +13,27 @@ namespace ContractClaimSystem.Controllers
             _logger = logger;
         }
 
+        // ✅ Landing page
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Privacy()
+        // ✅ About page (optional)
+        public IActionResult About()
         {
+            ViewData["Message"] = "This Contract Claims Management System allows lecturers to submit and track their monthly claims.";
             return View();
         }
 
+        // ✅ Contact page (optional)
+        public IActionResult Contact()
+        {
+            ViewData["Message"] = "Contact system administration for support.";
+            return View();
+        }
+
+        // ✅ Error page
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
