@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Contract Monthly Claim System - Prototype</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>Contract Monthly Claim System</h1>
+            <nav>
+                <a href="/">Home</a> |
+                <a href="/Claims/Submit">Submit Claim</a> |
+                <a href="/Claims/Track">Track Status</a> |
+                <a href="/Admin/Verify">Verify</a> |
+                <a href="/Admin/Approve">Approve</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        @if (TempData["Success"] != null)
+        {
+            <div class="alert success">@TempData["Success"]</div>
+        }
+        @RenderBody()
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            &copy; @DateTime.UtcNow.Year - Prototype (non-production)
+        </div>
+    </footer>
+</body>
+</html>

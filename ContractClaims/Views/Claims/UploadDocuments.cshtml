@@ -1,0 +1,26 @@
+﻿@model ContractClaims.Models.Claim
+@{
+    ViewData["Title"] = "Upload Documents";
+}
+<h2>Upload Documents for Claim #@Model.Id</h2>
+
+<p>Lecturer: @Model.Lecturer?.FullName</p>
+<p>Month: @Model.Month | Hours: @Model.Hours | Rate: @Model.HourlyRate | Total: @Model.Total</p>
+
+<form asp-action="UploadDocuments" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="id" value="@Model.Id" />
+    <label>Select file</label>
+    <input type="file" name="file" accept=".pdf,.docx,.xlsx" />
+    <button type="submit" class="btn">Upload</button>
+</form>
+
+@if (Model.Documents?.Any() == true)
+{
+    <h4>Uploaded documents</h4>
+    <ul>
+        @foreach (var d in Model.Documents)
+        {
+            <li><a href="@d.FilePath" target="_blank">@d.FileName</a></li>
+        }
+    </ul>
+}

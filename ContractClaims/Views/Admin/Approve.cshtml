@@ -1,0 +1,34 @@
+﻿@model IEnumerable<ContractClaims.Models.Claim>
+@{
+    ViewData["Title"] = "Approve Claims";
+}
+<h2>Academic Manager - Approve Verified Claims</h2>
+
+@if (!Model.Any())
+{
+    <p>No verified claims awaiting approval.</p>
+}
+
+<table class="table">
+    <thead><tr><th>#</th><th>Lecturer</th><th>Contract</th><th>Month</th><th>Hours</th><th>Total</th><th>Action</th></tr></thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Id</td>
+                <td>@c.Lecturer?.FullName</td>
+                <td>@c.Contract?.ContractCode</td>
+                <td>@c.Month</td>
+                <td>@c.Hours</td>
+                <td>@c.Total</td>
+                <td>
+                    <form asp-action="ApproveAction" method="post" style="display:inline">
+                        <input type="hidden" name="id" value="@c.Id" />
+                        <button name="action" value="approve" class="btn small">Approve</button>
+                        <button name="action" value="reject" class="btn small danger">Reject</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

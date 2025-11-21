@@ -1,0 +1,110 @@
+/* wwwroot/css/site.css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background: #f6f7fb;
+}
+
+.container {
+    max-width: 980px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.site-header {
+    background: #1f5f9a;
+    color: white;
+    padding: 12px 0;
+}
+
+    .site-header h1 {
+        margin: 0;
+        padding-left: 10px;
+        font-size: 20px;
+        display: inline-block;
+    }
+
+    .site-header nav {
+        float: right;
+        padding-right: 10px;
+    }
+
+    .site-header a {
+        color: white;
+        margin-left: 10px;
+        text-decoration: none;
+    }
+
+.site-footer {
+    background: #1f5f9a;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+    .form label {
+        font-weight: 600;
+    }
+
+    .form input, .form select, .form textarea {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+.btn {
+    background: #1f5f9a;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    .btn.secondary {
+        background: #6c757d;
+    }
+
+    .btn.small {
+        padding: 6px 8px;
+        font-size: 0.9rem;
+    }
+
+        .btn.danger, .btn.small.danger {
+            background: #d9534f;
+        }
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+    .table th, .table td {
+        padding: 8px 10px;
+        border: 1px solid #e1e1e1;
+        text-align: left;
+    }
+
+.alert.success {
+    background: #e6ffed;
+    border-left: 4px solid #2ecc71;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.cta {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}

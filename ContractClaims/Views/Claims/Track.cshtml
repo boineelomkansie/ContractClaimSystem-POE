@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ContractClaims.Models.Claim>
+@{
+    ViewData["Title"] = "Track Claims";
+}
+<h2>Track Status</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Lecturer</th>
+            <th>Contract</th>
+            <th>Month</th>
+            <th>Hours</th>
+            <th>Rate</th>
+            <th>Total</th>
+            <th>Status</th>
+            <th>Documents</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var c in Model)
+        {
+            <tr>
+                <td>@c.Id</td>
+                <td>@c.Lecturer?.FullName</td>
+                <td>@c.Contract?.ContractCode</td>
+                <td>@c.Month</td>
+                <td>@c.Hours</td>
+                <td>@c.HourlyRate</td>
+                <td>@c.Total</td>
+                <td>@c.Status</td>
+                <td>
+                    @if (c.Documents?.Any() == true)
+                    {
+                        <ul>
+                            @foreach (var d in c.Documents)
+                            {
+                                <li><a href="@d.FilePath" target="_blank">@d.FileName</a></li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+
+                        <span>-</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
